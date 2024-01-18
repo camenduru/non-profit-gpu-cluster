@@ -21,4 +21,4 @@ https://www.intel.com/content/www/us/en/products/sku/193749/intel-xeon-w3235-pro
 ### Case: E-ATX
 
 # How will we pay the electricity cost and collect money for more GPUs?
-1xGPU 3090 or A5000 24 Hours $2
+Electricity cost: 1xGPU 3090 or A5000 24 Hours $2
