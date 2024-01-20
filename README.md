@@ -1,12 +1,14 @@
 ### Ubuntu 22.04.3 LTS
 ```shell
-
-
-
-python --version
 apt install build-essential software-properties-common zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev -y
 apt install wget nvtop python-is-python3 aria2 unrar -y
+```
 
+### Python 3.10.12
+
+### Cuda 12.1.0_530.30.02
+
+```shell
 lsmod | grep nouveau
 cat <<EOF | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
 blacklist nouveau
@@ -24,6 +26,10 @@ nvcc --version
 
 wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
 sudo sh cuda_12.1.0_530.30.02_linux.run
+
+
+pip install -q torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121 torchtext==0.16.0 torchdata==0.7.0 --extra-index-url https://download.pytorch.org/whl/cu121 -U
+pip show torch
 ```
 
 ### Jupyter
