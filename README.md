@@ -1,3 +1,12 @@
+## SSH root login
+```shell
+sudo nano /etc/ssh/sshd_config
+PermitRootLogin prohibit-password to PermitRootLogin yes
+sudo systemctl restart ssh
+sudo passwd
+sudo ufw allow ssh
+```
+
 ### Ubuntu 22.04.3 LTS
 ```shell
 apt install build-essential software-properties-common zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev -y
