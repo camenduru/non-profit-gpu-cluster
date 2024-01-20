@@ -2,6 +2,35 @@
 🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br />
 🥳 Please join my patreon community https://patreon.com/camenduru <br />
 
+# Motivation
+
+- If each person receives 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it, with 2xGPU 14 people, with 24xGPU 168 people ...
+- Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2
+- End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs.
+
+
+# First Prototype Server Parts:
+
+- GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
+- GPU2: Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
+- Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
+- CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
+- Ram: 384GB (32GBx12) DDR4 1rx4 2933MHz or 3200MHz
+- SSD: 4TB
+- Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
+- Case: Antec P20C-W (E-ATX)
+
+# Updates:
+
+### January 20 2024
+✔ Motherboard (Pro WS C621-64L SAGE) <br />
+✔ 1 x 32GB RAM (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) <br />
+✔ Case (Antec P20C-W) <br />
+![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
+
+
+# Setup:
+
 ## SSH root login
 ```shell
 sudo nano /etc/ssh/sshd_config
@@ -55,29 +84,3 @@ systemctl start jupyter-lab
 systemctl enable jupyter-lab
 systemctl list-unit-files --type=service --state=enabled
 ```
-
-# Motivation
-
-- If each person receives 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it, with 2xGPU 14 people, with 24xGPU 168 people ...
-- Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2
-- End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs.
-
-
-# First Prototype Server Parts:
-
-- GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
-- GPU2: Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
-- Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
-- CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
-- Ram: 384GB (32GBx12) DDR4 1rx4 2933MHz or 3200MHz
-- SSD: 4TB
-- Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
-- Case: Antec P20C-W (E-ATX)
-
-# Updates:
-
-### January 20 2024
-✔ Motherboard (Pro WS C621-64L SAGE) <br />
-✔ 1 x 32GB RAM (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) <br />
-✔ Case (Antec P20C-W) <br />
-![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
