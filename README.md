@@ -56,9 +56,9 @@ systemctl enable jupyter-lab
 systemctl list-unit-files --type=service --state=enabled
 ```
 
-If each person receives 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it, with 2xGPU 14 people, with 24xGPU 168 people ... <br />
-Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2 <br />
-End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs. <br />
+- If each person receives 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it, with 2xGPU 14 people, with 24xGPU 168 people ... <br />
+- Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2 <br />
+- End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs. <br />
 
 # First Prototype Server Parts:
 
