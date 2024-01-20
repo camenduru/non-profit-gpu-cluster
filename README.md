@@ -37,8 +37,9 @@ nvcc --version
 ### Python 3.10.12
 ```shell
 
-pip install -q torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121 torchtext==0.16.0 torchdata==0.7.0 --extra-index-url https://download.pytorch.org/whl/cu121 -U
-pip show torch
+pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121 torchtext==0.16.0 torchdata==0.7.0 --extra-index-url https://download.pytorch.org/whl/cu121
+pip install notebook
+pip show torch notebook
 ```
 
 ### Jupyter
