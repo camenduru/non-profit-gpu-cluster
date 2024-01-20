@@ -9,7 +9,7 @@
 - End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs.
 
 
-# First Prototype Server Parts:
+# First Prototype Server Parts
 
 - GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
 - GPU2: Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
@@ -20,7 +20,7 @@
 - Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
 - Case: Antec P20C-W (E-ATX)
 
-# Updates:
+# Updates
 
 ### January 20 2024
 ✔ Motherboard (Pro WS C621-64L SAGE) <br />
@@ -29,7 +29,7 @@
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
 
 
-# Setup:
+# Setup
 
 ## SSH root login
 ```shell
