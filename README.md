@@ -1,3 +1,7 @@
+🐣 Please follow me for new updates https://twitter.com/camenduru <br />
+🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br />
+🥳 Please join my patreon community https://patreon.com/camenduru <br />
+
 ## SSH root login
 ```shell
 sudo nano /etc/ssh/sshd_config
@@ -51,25 +55,19 @@ systemctl enable jupyter-lab
 systemctl list-unit-files --type=service --state=enabled
 ```
 
-If every person gets 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it. with 2xGPU 14 people, with 24xGPU 168 people ...
+If every person gets 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it. with 2xGPU 14 people, with 24xGPU 168 people ... <br />
+Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2 <br />
+End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs. <br />
 
-# First Server Parts
+# First Prototype Server Parts:
 
-### GPU: 2 x Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
-https://www.nvidia.com/en-us/design-visualization/rtx-a5000 <br />
-https://www.techpowerup.com/gpu-specs/gigabyte-rtx-3090-turbo.b8061 <br />
+- GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
+- GPU2: Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
+- Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
+- CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
+- Ram: 384GB (32GBx12) DDR4 1rx4 2933MHz or 3200MHz
+- SSD: 4TB
+- Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
+- Case: Antec P20C-W (E-ATX)
+- Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2
 
-### Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
-https://www.asus.com/Commercial-Servers-Workstations/Pro-WS-C621-64L-SAGE/
-
-### CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
-https://www.intel.com/content/www/us/en/products/sku/193749/intel-xeon-w3235-processor-19-25m-cache-3-30-ghz/specifications.html
-
-### Ram: 384GB (32GBx12) DDR4 1rx4 2933MHz or 3200MHz 
-
-### Power supply: 1600 Watt 80+ TITANIUM
-
-### Case: E-ATX
-
-# How will we pay the electricity cost and collect money for more GPUs?
-Electricity cost: 1xGPU 3090 or A5000 24 Hours $2
