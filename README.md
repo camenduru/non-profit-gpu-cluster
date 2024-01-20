@@ -1,8 +1,42 @@
-After the latest Kaggle and Colab ban on Gradio and Streamlit type UIs, I decided to build our community GPU cluster 
-If every person gets 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it.
-With 2xGPU 14 people, with 24xGPU 168 people ...
+### Ubuntu 22.04.3 LTS
+```shell
 
-# First Prototype Server Parts
+
+
+python --version
+apt install build-essential software-properties-common zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev -y
+apt install wget nvtop python-is-python3 aria2 unrar -y
+
+lsmod | grep nouveau
+cat <<EOF | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
+blacklist nouveau
+options nouveau modeset=0
+EOF
+sudo update-initramfs -u
+sudo reboot
+nvidia-smi
+nano /etc/ld.so.conf
+ldconfig
+
+nano .bashrc
+ldconfig
+nvcc --version
+
+wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
+sudo sh cuda_12.1.0_530.30.02_linux.run
+```
+
+### Jupyter
+
+```shell
+sudo systemctl daemon-reload
+sudo systemctl start jupyter-lab
+sudo systemctl enable jupyter-lab
+```
+
+If every person gets 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it. with 2xGPU 14 people, with 24xGPU 168 people ...
+
+# First Server Parts
 
 ### GPU: 2 x Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
 https://www.nvidia.com/en-us/design-visualization/rtx-a5000 <br />
