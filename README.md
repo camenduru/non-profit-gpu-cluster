@@ -69,10 +69,11 @@ End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs. <br />
 - SSD: 4TB
 - Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
 - Case: Antec P20C-W (E-ATX)
-- Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2
-
 
 # Updates:
 
 ### January 20 2024
+✔ Motherboard (Pro WS C621-64L SAGE) <br />
+✔ 1 x 32GB RAM (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) <br />
+✔ Case (Antec P20C-W) <br />
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
