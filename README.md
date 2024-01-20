@@ -49,6 +49,7 @@ pip show torch notebook
 ### Jupyter
 
 ```shell
+nano /etc/systemd/system/jupyter-lab.service
 systemctl daemon-reload
 systemctl start jupyter-lab
 systemctl enable jupyter-lab
