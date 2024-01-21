@@ -4,6 +4,7 @@
 
 ## Motivation
 
+- ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/99285477-fb17-44e6-ba5f-fce56902dde0)
 - If each person receives 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it, with 2xGPU 14 people, with 24xGPU 168 people ...
 - Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2
 - End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs.
