@@ -34,7 +34,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - Patreon Members (2023 + Jan 2024) https://www.patreon.com/camenduru
 - Total In $2212.58
 - Total Out (Prediction) $3418 OR $3418 + 8x32GB RAM $760 = $4178
-- $3418 - $2212.58 = $1205.42 OR $4178 - $2212.58 = 1965.42 😐
+- $3418 - $2212.58 = $1205.42 OR $4178 - $2212.58 = $1965.42 😐
 
 ## Updates
 
