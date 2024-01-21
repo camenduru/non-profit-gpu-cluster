@@ -2,14 +2,14 @@
 🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br />
 🥳 Please join my patreon community https://patreon.com/camenduru <br />
 
-# Motivation
+## Motivation
 
 - If each person receives 24 hours of compute time every week with a 3090 or A5000 GPU 7 people can use it, with 2xGPU 14 people, with 24xGPU 168 people ...
 - Operation cost (electricity): 2xGPU 3090 or A5000 24 Hours ~$2
 - End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs.
 
 
-# First Prototype Server Parts
+## First Prototype Server Parts
 
 - GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
 - GPU2: Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
@@ -20,7 +20,7 @@
 - Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
 - Case: Antec P20C-W (E-ATX)
 
-# Updates
+## Updates
 
 ### January 20 2024
 ✔ Motherboard (Pro WS C621-64L SAGE) <br />
@@ -29,9 +29,9 @@
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
 
 
-# Setup
+## Setup
 
-## SSH root login
+### SSH root login
 ```shell
 sudo nano /etc/ssh/sshd_config
 PermitRootLogin prohibit-password to PermitRootLogin yes
@@ -69,14 +69,12 @@ nvcc --version
 
 ### Python 3.10.12
 ```shell
-
 pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121 torchtext==0.16.0 torchdata==0.7.0 --extra-index-url https://download.pytorch.org/whl/cu121
 pip install notebook
 pip show torch notebook
 ```
 
 ### Jupyter
-
 ```shell
 nano /etc/systemd/system/jupyter-lab.service
 systemctl daemon-reload
