@@ -23,7 +23,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
 - Case: Antec P20C-W (E-ATX)
 
-## Budget
+## Budget & Sponsors
 
 - @chai_research (Chai Prize Grant $300) https://twitter.com/chai_research/status/1702811327323070762
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/ecef1797-2d8a-42f1-b8f5-d336a9dc3df3)
