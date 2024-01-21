@@ -18,6 +18,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - GPU2: Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
 - Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
 - CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
+- CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
 - Ram: Min 128GB (32GBx4) Max 384GB (32GBx12) DDR4 1rx4 2933MHz or 3200MHz
 - SSD: 4TB 6Gb/s
 - Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
