@@ -109,3 +109,10 @@ systemctl list-unit-files --type=service --state=enabled
 nano /etc/netplan/00-installer-config.yaml
 netplan apply 
 ```
+
+### Other
+```shell
+tmux ls
+tmux a
+tmux attach-session 0
+```
