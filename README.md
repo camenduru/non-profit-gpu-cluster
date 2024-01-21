@@ -12,7 +12,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs.
 
 
-## First Prototype Server Parts
+## First Server Parts
 
 - GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
 - GPU2: Nvidia A5000 (2-slot 24GB) or 3090 Turbo (2-slot 24GB)
