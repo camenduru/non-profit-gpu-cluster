@@ -115,4 +115,5 @@ netplan apply
 tmux ls
 tmux a
 tmux attach-session 0
+openrgb -m 'Off'
 ```
