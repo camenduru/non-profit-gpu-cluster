@@ -23,12 +23,18 @@ https://twitter.com/camenduru/status/1747802652182737050
 - Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
 - Case: Antec P20C-W (E-ATX)
 
+## Budget
+
+- @chai_research (Chai Prize Grant $300) https://twitter.com/chai_research/status/1702811327323070762
+![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/e6dea826-611a-4d18-b41d-509927e8aa0d)
+
+
 ## Updates
 
 ### January 20 2024
-✔ Motherboard (Pro WS C621-64L SAGE) <br />
-✔ 1 x 32GB RAM (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) <br />
-✔ Case (Antec P20C-W) <br />
+✔ Motherboard (Pro WS C621-64L SAGE) $628 <br />
+✔ 1 x 32GB RAM (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
+✔ Case (Antec P20C-W) $89 <br />
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
 
 
