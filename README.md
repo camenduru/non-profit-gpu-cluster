@@ -28,6 +28,11 @@ https://twitter.com/camenduru/status/1747802652182737050
 - @chai_research (Chai Prize Grant $300) https://twitter.com/chai_research/status/1702811327323070762
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/e6dea826-611a-4d18-b41d-509927e8aa0d)
 
+- December Sponsor @adhik_Joshi https://twitter.com/camenduru/status/1729995264096641233
+![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/6e41805b-01ff-40bb-9dfe-38dd2ac7e572)
+
+- January Sponsor @adhik_Joshi https://twitter.com/camenduru/status/1744371512981794865
+![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/4c1aa14c-e8ad-461d-a458-d37f78ad4d2e)
 
 ## Updates
 
