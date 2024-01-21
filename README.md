@@ -103,3 +103,9 @@ systemctl start jupyter-lab
 systemctl enable jupyter-lab
 systemctl list-unit-files --type=service --state=enabled
 ```
+
+### Network
+```shell
+nano /etc/netplan/00-installer-config.yaml
+netplan apply 
+```
