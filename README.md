@@ -4,6 +4,8 @@
 
 ## Motivation
 
+### A non-profit GPU cluster that runs open-source papers with a UI for free for everyone.
+
 https://twitter.com/camenduru/status/1747802652182737050
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/99285477-fb17-44e6-ba5f-fce56902dde0)
 
