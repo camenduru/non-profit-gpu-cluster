@@ -108,7 +108,11 @@ systemctl list-unit-files --type=service --state=enabled
 ### Network
 ```shell
 nano /etc/netplan/00-installer-config.yaml
-netplan apply 
+netplan apply
+
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+dpkg -i cloudflared-linux-amd64.deb
+cloudflared service install TOKEN_HERE
 ```
 
 ### Other
