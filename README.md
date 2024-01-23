@@ -27,12 +27,13 @@ https://twitter.com/camenduru/status/1747802652182737050
 - Case: Antec P20C-W (E-ATX)
 
 ## Budget & Sponsors
-
-- Chai Prize Grant @chai_research https://twitter.com/chai_research/status/1702811327323070762
+- fictions.ai [@thibaudz](https://twitter.com/thibaudz) https://twitter.com/camenduru/status/1749788882877448451
+![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/41756396-6289-4795-bd06-b1f234bf5d73)
+- Chai Prize Grant [@chai_research](https://twitter.com/chai_research) https://twitter.com/chai_research/status/1702811327323070762
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/ecef1797-2d8a-42f1-b8f5-d336a9dc3df3)
-- December Sponsor @adhik_Joshi https://twitter.com/camenduru/status/1729995264096641233
+- December Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) https://twitter.com/camenduru/status/1729995264096641233
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/6e41805b-01ff-40bb-9dfe-38dd2ac7e572)
-- January Sponsor @adhik_Joshi https://twitter.com/camenduru/status/1744371512981794865
+- January Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) https://twitter.com/camenduru/status/1744371512981794865
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/4c1aa14c-e8ad-461d-a458-d37f78ad4d2e)
 - Patreon Members (2023 + Jan 2024) https://www.patreon.com/camenduru
 - Total In $2212.58
