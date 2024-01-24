@@ -42,6 +42,12 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## Updates
 
+### January 23, 2024
+✔ 🧿 The non-profit GPU cluster is now running [instantid.github.io](https://instantid.github.io/) (Running with an old motherboard and CPU because our new CPU has not arrived yet)
+
+### January 22, 2024
+✔ 🧿 The non-profit GPU cluster is now running [photo-maker.github.io](https://photo-maker.github.io/) (Running with an old motherboard and CPU because our new CPU has not arrived yet)
+
 ### January 20 2024
 ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $747 <br />
 ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $249 <br />
@@ -52,12 +58,6 @@ https://twitter.com/camenduru/status/1747802652182737050
 ✔ 1 x 32GB RAM (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
 ✔ Case (Antec P20C-W) $89 <br />
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
-
-### January 22, 2024
-✔ 🧿 The non-profit GPU cluster is now running [photo-maker.github.io](https://photo-maker.github.io/) (Running with an old motherboard and CPU because our new CPU has not arrived yet)
-
-### January 23, 2024
-✔ 🧿 The non-profit GPU cluster is now running [instantid.github.io](https://instantid.github.io/) (Running with an old motherboard and CPU because our new CPU has not arrived yet)
 
 ## Setup
 
