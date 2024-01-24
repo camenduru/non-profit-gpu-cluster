@@ -36,9 +36,9 @@ https://twitter.com/camenduru/status/1747802652182737050
 - January Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1744371512981794865
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/4c1aa14c-e8ad-461d-a458-d37f78ad4d2e)
 - Patreon Members (2023 + Jan 2024) https://www.patreon.com/camenduru
-- Total In $2212.58 + $250
+- Total In $2462.58
 - Total Out (Optimistic Prediction) $3418 OR $3418 + 8x32GB RAM $760 = $4178
-- $3418 - $2212.58 = $1205.42 OR $4178 - $2212.58 = $1965.42 😐
+- $3418 - $2462.58 = $955.42 OR $4178 - $2462.58 = $1715.42 😐
 
 ## Updates
 
