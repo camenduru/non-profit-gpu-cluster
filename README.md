@@ -53,6 +53,11 @@ https://twitter.com/camenduru/status/1747802652182737050
 ✔ Case (Antec P20C-W) $89 <br />
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
 
+### January 22, 2024
+✔ 🧿 The non-profit GPU cluster is now running [photo-maker.github.io](https://photo-maker.github.io/) (Running with an old motherboard and CPU because our new CPU has not arrived yet)
+
+### January 23, 2024
+✔ 🧿 The non-profit GPU cluster is now running [instantid.github.io](https://instantid.github.io/) (Running with an old motherboard and CPU because our new CPU has not arrived yet)
 
 ## Setup
 
