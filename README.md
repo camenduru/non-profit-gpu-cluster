@@ -17,7 +17,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 ## First Server Parts
 
 - GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
-- GPU2: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
+- GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot)
 - Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
 - CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
 - CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
@@ -43,7 +43,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 ## Updates
 
 ### January 24, 2024
-✔ GPU2: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
+✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot) $790 <br />
 
 ### January 23, 2024
 ✔ 🧿 The non-profit GPU cluster is now running [instantid.github.io](https://instantid.github.io/) 🥳 (operating with an old motherboard and CPU because our new CPU has not arrived yet)
