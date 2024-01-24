@@ -43,10 +43,10 @@ https://twitter.com/camenduru/status/1747802652182737050
 ## Updates
 
 ### January 23, 2024
-✔ 🧿 The non-profit GPU cluster is now running [instantid.github.io](https://instantid.github.io/) (Running with an old motherboard and CPU because our new CPU has not arrived yet)
+✔ 🧿 The non-profit GPU cluster is now running [instantid.github.io](https://instantid.github.io/) 🥳 (operating with an old motherboard and CPU because our new CPU has not arrived yet)
 
 ### January 22, 2024
-✔ 🧿 The non-profit GPU cluster is now running [photo-maker.github.io](https://photo-maker.github.io/) (Running with an old motherboard and CPU because our new CPU has not arrived yet)
+✔ 🧿 The non-profit GPU cluster is now running [photo-maker.github.io](https://photo-maker.github.io/) 🥳 (operating with an old motherboard and CPU because our new CPU has not arrived yet)
 
 ### January 20 2024
 ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $747 <br />
