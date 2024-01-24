@@ -127,6 +127,6 @@ cloudflared service install TOKEN_HERE
 ```shell
 tmux ls
 tmux a
-tmux attach-session 0
+tmux attach-session -t 0
 openrgb -m off
 ```
