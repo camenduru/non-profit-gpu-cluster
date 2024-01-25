@@ -130,9 +130,8 @@ cloudflared service install TOKEN_HERE
 ```shell
 https://docs.docker.com/engine/install/ubuntu/
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-the-nvidia-container-toolkit
-
-docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 8888:8888 jupyter/base-notebook
 systemctl restart docker
+docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 8888:8888 jupyter/base-notebook
 ```
 
 ### Other
