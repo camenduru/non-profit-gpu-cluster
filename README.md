@@ -126,6 +126,15 @@ dpkg -i cloudflared-linux-amd64.deb
 cloudflared service install TOKEN_HERE
 ```
 
+### Docker
+```shell
+https://docs.docker.com/engine/install/ubuntu/
+
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-the-nvidia-container-toolkit
+
+docker run --gpus all nvidia/cuda:12.1.0-runtime-ubuntu22.04 nvidia-smi
+```
+
 ### Other
 ```shell
 tmux ls
