@@ -42,6 +42,10 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## Updates
 
+### January 27, 2024
+✔ Power supply2: Corsair AX1500i 1500 Watt 80+ Titanium $227 <br />
+✔ Case2 (Antec P20C-W) $89 <br />
+
 ### January 24, 2024
 ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot) $790 <br />
 
@@ -53,13 +57,13 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ### January 20 2024
 ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $747 <br />
-✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $249 <br />
-✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $78 <br />
+✔ Power supply1: Corsair AX1500i 1500 Watt 80+ Titanium $249 <br />
+✔ CPU Cooler1: 4U Active CPU Heat Sink LGA3647 (Narrow) $78 <br />
 
 ### January 19 2024
-✔ Motherboard (Pro WS C621-64L SAGE) $628 <br />
-✔ 1 x 32GB RAM (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
-✔ Case (Antec P20C-W) $89 <br />
+✔ Motherboard1 (Pro WS C621-64L SAGE) $628 <br />
+✔ 1 x 32GB RAM1 (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
+✔ Case1 (Antec P20C-W) $89 <br />
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
 
 ## Setup
