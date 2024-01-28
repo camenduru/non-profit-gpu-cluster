@@ -147,4 +147,5 @@ tmux ls
 tmux a
 tmux attach-session -t 0
 openrgb -m off
+find / -type f -exec du -h {} + | sort -rh | head -n 20
 ```
