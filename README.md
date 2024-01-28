@@ -141,9 +141,10 @@ https://github.com/camenduru/docker-stacks-foundation
 https://github.com/camenduru/base-notebook
 https://quay.io/repository/camenduru/docker-stacks-foundation
 https://quay.io/repository/camenduru/base-notebook
+docker build -t base-notebook .
 
 Ubuntu 22.04 Python 3.10.11
-docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 1000:8888 quay.io/camenduru/base-notebook
+docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 1000:8888 quay.io/camenduru/base-notebook:
 pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121 torchtext==0.16.0 torchdata==0.7.0 --extra-index-url https://download.pytorch.org/whl/cu121
 pip install ipywidgets
 ```
