@@ -144,7 +144,8 @@ https://quay.io/repository/camenduru/base-notebook
 docker build -t base-notebook .
 
 Ubuntu 22.04 Python 3.10.11
-docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 1000:8888 quay.io/camenduru/base-notebook:latest
+docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 1000:7860 quay.io/camenduru/base-notebook:latest
+docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 1000:7860 registry.hf.space/camenduru-base-notebook:latest
 docker system prune -a
 ```
 
