@@ -158,6 +158,11 @@ docker system prune -a
 tmux ls
 tmux a
 tmux attach-session -t 0
+
+wget https://openrgb.org/releases/release_0.9/openrgb_0.9_amd64_bookworm_b5f46e3.deb
+dpkg -i openrgb_0.9_amd64_bookworm_b5f46e3.deb
+apt --fix-broken install
 openrgb -m off
+
 find / -type f -exec du -h {} + | sort -rh | head -n 20
 ```
