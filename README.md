@@ -82,7 +82,7 @@ sudo ufw allow ssh
 apt update
 apt upgrade -y
 apt install build-essential software-properties-common zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev -y
-apt install wget nvtop btop python-is-python3 python3-pip aria2 unrar -y
+apt install wget nvtop python-is-python3 python3-pip aria2 unrar -y
 ```
 
 ### Cuda 12.1.0_530.30.02
@@ -165,4 +165,9 @@ apt --fix-broken install
 openrgb -m off
 
 find / -type f -exec du -h {} + | sort -rh | head -n 20
+
+wget https://github.com/aristocratos/btop/releases/download/v1.3.0/btop-x86_64-linux-musl.tbz
+tar -xjvf btop-x86_64-linux-musl.tbz
+cd btop
+make install PREFIX=/usr
 ```
