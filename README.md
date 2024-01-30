@@ -115,6 +115,7 @@ pip show torch notebook
 
 ### Jupyter
 ```shell
+mkdir /content
 nano /etc/systemd/system/jupyter-lab.service
 systemctl daemon-reload
 systemctl start jupyter-lab
