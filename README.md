@@ -166,8 +166,8 @@ openrgb -m off
 
 find / -type f -exec du -h {} + | sort -rh | head -n 20
 
-wget https://github.com/aristocratos/btop/releases/download/v1.3.0/btop-x86_64-linux-musl.tbz
-tar -xjvf btop-x86_64-linux-musl.tbz
+git clone https://github.com/aristocratos/btop
 cd btop
+make
 make install PREFIX=/usr
 ```
