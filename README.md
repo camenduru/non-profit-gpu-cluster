@@ -121,6 +121,7 @@ systemctl daemon-reload
 systemctl start jupyter-lab
 systemctl enable jupyter-lab
 systemctl list-unit-files --type=service --state=enabled
+pip install pickleshare ipywidgets
 ```
 
 ### Network
