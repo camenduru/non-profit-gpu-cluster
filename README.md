@@ -42,6 +42,10 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## Updates
 
+### January 31, 2024
+✔ CPU1: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
+✔ CPU2: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (4 GPU Support)
+
 ### January 27, 2024
 ✔ Power supply2: Corsair AX1500i 1500 Watt 80+ Titanium $227 <br />
 ✔ Case2 (Antec P20C-W) $89 <br />
