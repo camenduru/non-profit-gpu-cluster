@@ -16,15 +16,29 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## First Server Parts
 
-- GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
-- GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot)
+- ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
+- ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot)
+- ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
+- ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
+- ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22
+- ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 Mb/s
+- ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
+- ✔ Case: Antec P20C-W (E-ATX)
+
+## Second Server Parts
+
+- GPU1: 3090 OR A5000
+- GPU2: 3090 OR A5000
 - Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
-- CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
+- ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support)
 - CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
-- Ram: Min 128GB (32GBx4) Max 384GB (32GBx12) DDR4 1rx4 2933MHz or 3200MHz
+- Ram: 1 x 32GB DDR4 1rx4 2933MHz or 3200MHz
+- Ram: 1 x 32GB DDR4 1rx4 2933MHz or 3200MHz
 - SSD: 4TB 6Gb/s
-- Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
-- Case: Antec P20C-W (E-ATX)
+- ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
+- ✔ Case: Antec P20C-W (E-ATX)
 
 ## Budget & Sponsors
 - [fictions.ai](https://fictions.ai/) [@thibaudz](https://twitter.com/thibaudz) | https://twitter.com/camenduru/status/1749788882877448451
@@ -36,19 +50,25 @@ https://twitter.com/camenduru/status/1747802652182737050
 - January Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1744371512981794865
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/4c1aa14c-e8ad-461d-a458-d37f78ad4d2e)
 - Patreon Members (2023 + Jan 2024) https://www.patreon.com/camenduru
-- Total In $2462.58
-- Total Out (Optimistic Prediction) $3418 OR $3418 + 8x32GB RAM $760 = $4178
-- $3418 - $2462.58 = $955.42 OR $4178 - $2462.58 = $1715.42 😐
+- Total In First Server: $2462.58
+- Total Out First Server: $3239 (64GB RAM)
+- $2462.58 - $3239 = -$776.42 😐
+- Total In Second Server: $0
+- Total Out Second Server: $349 (Optimistic Prediction) $3239 (64GB RAM)
+- $0 - $349 = -$349 😐
+- We need (Optimistic Prediction) $4015.42 😐
 
 ## Updates
 
 ### January 31, 2024
-✔ CPU1: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) <br />
-✔ CPU2: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) <br />
+✔ CPU1: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197 <br />
+✔ CPU2: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) $33 <br />
+✔ RAM1: 1 x 32GB (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
+✔ SSD1: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 Mb/s $271 <br />
 
 ### January 27, 2024
-✔ Power supply2: Corsair AX1500i 1500 Watt 80+ Titanium $227 <br />
-✔ Case2 (Antec P20C-W) $89 <br />
+✔ Power Supply2: Corsair AX1500i 1500 Watt 80+ Titanium $227 <br />
+✔ Case2: (Antec P20C-W) $89 <br />
 
 ### January 24, 2024
 ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot) $790 <br />
@@ -61,13 +81,13 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ### January 20 2024
 ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $747 <br />
-✔ Power supply1: Corsair AX1500i 1500 Watt 80+ Titanium $249 <br />
+✔ Power Supply1: Corsair AX1500i 1500 Watt 80+ Titanium $249 <br />
 ✔ CPU Cooler1: 4U Active CPU Heat Sink LGA3647 (Narrow) $78 <br />
 
 ### January 19 2024
-✔ Motherboard1 (Pro WS C621-64L SAGE) $628 <br />
-✔ 1 x 32GB RAM1 (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
-✔ Case1 (Antec P20C-W) $89 <br />
+✔ Motherboard1: (Pro WS C621-64L SAGE) $628 <br />
+✔ RAM1: 1 x 32GB (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
+✔ Case1: (Antec P20C-W) $89 <br />
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
 
 ## Setup
