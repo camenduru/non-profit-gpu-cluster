@@ -195,4 +195,7 @@ git clone https://github.com/aristocratos/btop
 cd btop
 make
 make install PREFIX=/usr
+
+https://github.com/tgraf/bmon
+https://github.com/raboof/nethogs
 ```
