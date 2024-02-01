@@ -131,6 +131,7 @@ nvcc --version
 
 nvidia-smi -q | grep -i bar -A 3
 https://www.nvidia.com/en-us/geforce/news/geforce-rtx-30-series-resizable-bar-support/
+https://forums.developer.nvidia.com/t/enabling-resizable-bar-on-rtx-30-series-gpus-in-linux/239950
 ```
 
 ### Python 3.10.12
