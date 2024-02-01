@@ -130,6 +130,7 @@ ldconfig
 nvcc --version
 
 nvidia-smi -q | grep -i bar -A 3
+https://www.nvidia.com/en-us/geforce/news/geforce-rtx-30-series-resizable-bar-support/
 ```
 
 ### Python 3.10.12
