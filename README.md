@@ -128,6 +128,8 @@ ldconfig
 nano .bashrc
 ldconfig
 nvcc --version
+
+nvidia-smi -q | grep -i bar -A 3
 ```
 
 ### Python 3.10.12
