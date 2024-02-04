@@ -152,6 +152,16 @@ systemctl list-unit-files --type=service --state=enabled
 pip install pickleshare ipywidgets
 ```
 
+### OpenVSCode
+```shell
+mkdir /content
+nano nano /etc/systemd/system/openvscode-server.service
+systemctl daemon-reload
+systemctl start openvscode-server
+systemctl enable openvscode-server
+systemctl list-unit-files --type=service --state=enabled
+```
+
 ### Network
 ```shell
 nano /etc/netplan/00-installer-config.yaml
