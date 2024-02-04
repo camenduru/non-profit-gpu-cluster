@@ -1,0 +1,9 @@
+[Unit]
+Description=OpenVSCode
+After=syslog.target network.target
+[Service]
+User=root
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+ExecStart=./bin/openvscode-server --without-connection-token --accept-server-license-terms --server-data-dir /content --port 8080 --host 0.0.0.0 
+[Install]
+WantedBy=multi-user.target
