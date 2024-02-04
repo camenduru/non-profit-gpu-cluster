@@ -156,23 +156,17 @@ pip install pickleshare ipywidgets
 ```shell
 https://github.com/coder/code-server
 curl -fsSL https://code-server.dev/install.sh | sh
+nano /etc/systemd/system/default.target.wants/code-server@root.service
 systemctl enable --now code-server@$USER
 systemctl status code-server@$USER
-nano /etc/systemd/system/default.target.wants/code-server@root.service
+systemctl enable code-server@$USER
+systemctl list-unit-files --type=service --state=enabled
 
 nano /root/.config/code-server/config.yaml
 bind-addr: 0.0.0.0:8080
 auth: none
 disable-telemetry: true
 cert: false
-
-https://github.com/gitpod-io/openvscode-server
-mkdir /content
-nano /etc/systemd/system/openvscode-server.service
-systemctl daemon-reload
-systemctl start openvscode-server
-systemctl enable openvscode-server
-systemctl list-unit-files --type=service --state=enabled
 ```
 
 ### Network
