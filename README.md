@@ -228,4 +228,5 @@ pip install virtualenv
 %cd /content
 !virtualenv stable-diffusion-webui-venv
 . /content/stable-diffusion-webui-venv/bin/activate
+deactivate
 ```
