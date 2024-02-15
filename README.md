@@ -221,3 +221,11 @@ make install PREFIX=/usr
 
 https://github.com/raboof/nethogs
 ```
+
+### Virtualenv
+```shell
+pip install virtualenv
+%cd /content
+!virtualenv stable-diffusion-webui-venv
+. /content/stable-diffusion-webui-venv/bin/activate
+```
