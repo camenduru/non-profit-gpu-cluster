@@ -167,6 +167,8 @@ bind-addr: 0.0.0.0:8080
 auth: none
 disable-telemetry: true
 cert: false
+
+chrome://flags/#unsafely-treat-insecure-origin-as-secure
 ```
 
 ### Network
@@ -218,6 +220,4 @@ make
 make install PREFIX=/usr
 
 https://github.com/raboof/nethogs
-
-chrome://flags/#unsafely-treat-insecure-origin-as-secure
 ```
