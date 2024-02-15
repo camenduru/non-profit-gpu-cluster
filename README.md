@@ -218,4 +218,6 @@ make
 make install PREFIX=/usr
 
 https://github.com/raboof/nethogs
+
+chrome://flags/#unsafely-treat-insecure-origin-as-secure
 ```
