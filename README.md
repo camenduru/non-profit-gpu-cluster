@@ -206,6 +206,7 @@ docker system prune -a
 tmux ls
 tmux a
 tmux attach-session -t 0
+tmux capture-pane -pS - > ~/tmux-buffer.txt
 
 wget https://openrgb.org/releases/release_0.9/openrgb_0.9_amd64_bookworm_b5f46e3.deb
 dpkg -i openrgb_0.9_amd64_bookworm_b5f46e3.deb
