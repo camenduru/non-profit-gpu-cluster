@@ -256,3 +256,19 @@ systemctl start stable-cascade
 systemctl enable stable-cascade
 systemctl list-unit-files --type=service --state=enabled
 ```
+
+### Instant ID
+```shell
+pip install virtualenv
+%cd /content
+!virtualenv instant-id-venv
+. /content/instant-id-venv/bin/activate
+deactivate
+
+mkdir /content
+nano /etc/systemd/system/instant-id.service
+systemctl daemon-reload
+systemctl start instant-id
+systemctl enable instant-id
+systemctl list-unit-files --type=service --state=enabled
+```
