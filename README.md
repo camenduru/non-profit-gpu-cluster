@@ -171,6 +171,16 @@ cert: false
 chrome://flags/#unsafely-treat-insecure-origin-as-secure
 ```
 
+### WebUI
+```shell
+mkdir /content
+nano /etc/systemd/system/webui.service
+systemctl daemon-reload
+systemctl start webui
+systemctl enable webui
+systemctl list-unit-files --type=service --state=enabled
+```
+
 ### Network
 ```shell
 nano /etc/netplan/00-installer-config.yaml
