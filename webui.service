@@ -5,7 +5,7 @@ After=syslog.target network.target
 User=root
 WorkingDirectory=/content/stable-diffusion-webui
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
-ExecStart=python launch.py --gradio-queue --xformers --device-id 0 --port 1000
+ExecStart=/bin/bash -c '. /content/stable-diffusion-webui-venv/bin/activate && python launch.py --gradio-queue --xformers --device-id 0 --port 1000'
 Restart=always
 [Install]
 WantedBy=multi-user.target
