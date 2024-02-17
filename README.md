@@ -141,46 +141,6 @@ pip install notebook
 pip show torch notebook
 ```
 
-### Jupyter
-```shell
-mkdir /content
-nano /etc/systemd/system/jupyter-lab.service
-systemctl daemon-reload
-systemctl start jupyter-lab
-systemctl enable jupyter-lab
-systemctl list-unit-files --type=service --state=enabled
-pip install pickleshare ipywidgets
-```
-
-### OpenVSCode
-```shell
-https://github.com/coder/code-server
-curl -fsSL https://code-server.dev/install.sh | sh
-nano /etc/systemd/system/default.target.wants/code-server@root.service
-systemctl enable --now code-server@$USER
-systemctl status code-server@$USER
-systemctl enable code-server@$USER
-systemctl list-unit-files --type=service --state=enabled
-
-nano /root/.config/code-server/config.yaml
-bind-addr: 0.0.0.0:8080
-auth: none
-disable-telemetry: true
-cert: false
-
-chrome://flags/#unsafely-treat-insecure-origin-as-secure
-```
-
-### WebUI
-```shell
-mkdir /content
-nano /etc/systemd/system/stable-diffusion-webui.service
-systemctl daemon-reload
-systemctl start stable-diffusion-webui
-systemctl enable stable-diffusion-webui
-systemctl list-unit-files --type=service --state=enabled
-```
-
 ### Network
 ```shell
 nano /etc/netplan/00-installer-config.yaml
@@ -233,11 +193,66 @@ make install PREFIX=/usr
 https://github.com/raboof/nethogs
 ```
 
-### Virtualenv
+## Services
+
+### Jupyter
+```shell
+mkdir /content
+nano /etc/systemd/system/jupyter-lab.service
+systemctl daemon-reload
+systemctl start jupyter-lab
+systemctl enable jupyter-lab
+systemctl list-unit-files --type=service --state=enabled
+pip install pickleshare ipywidgets
+```
+
+### OpenVSCode
+```shell
+https://github.com/coder/code-server
+curl -fsSL https://code-server.dev/install.sh | sh
+nano /etc/systemd/system/default.target.wants/code-server@root.service
+systemctl enable --now code-server@$USER
+systemctl status code-server@$USER
+systemctl enable code-server@$USER
+systemctl list-unit-files --type=service --state=enabled
+
+nano /root/.config/code-server/config.yaml
+bind-addr: 0.0.0.0:8080
+auth: none
+disable-telemetry: true
+cert: false
+
+chrome://flags/#unsafely-treat-insecure-origin-as-secure
+```
+
+### Stable Diffusion WebUI
 ```shell
 pip install virtualenv
 %cd /content
 !virtualenv stable-diffusion-webui-venv
 . /content/stable-diffusion-webui-venv/bin/activate
 deactivate
+
+mkdir /content
+nano /etc/systemd/system/stable-diffusion-webui.service
+systemctl daemon-reload
+systemctl start stable-diffusion-webui
+systemctl enable stable-diffusion-webui
+systemctl list-unit-files --type=service --state=enabled
+```
+
+### Stable Cascade
+```shell
+pip install virtualenv
+%cd /content
+!virtualenv stable-cascade-venv
+. /content/stable-cascade-venv/bin/activate
+deactivate
+
+mkdir /content
+nano /etc/systemd/system/stable-cascade.service
+systemctl daemon-reload
+systemctl start stable-cascade
+systemctl enable stable-cascade
+systemctl list-unit-files --type=service --state=enabled
 ```
