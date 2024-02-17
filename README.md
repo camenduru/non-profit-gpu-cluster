@@ -228,8 +228,8 @@ chrome://flags/#unsafely-treat-insecure-origin-as-secure
 ### Stable Diffusion WebUI
 ```shell
 pip install virtualenv
-%cd /content
-!virtualenv stable-diffusion-webui-venv
+cd /content
+virtualenv stable-diffusion-webui-venv
 . /content/stable-diffusion-webui-venv/bin/activate
 deactivate
 
@@ -244,8 +244,8 @@ systemctl list-unit-files --type=service --state=enabled
 ### Stable Cascade
 ```shell
 pip install virtualenv
-%cd /content
-!virtualenv stable-cascade-venv
+cd /content
+virtualenv stable-cascade-venv
 . /content/stable-cascade-venv/bin/activate
 deactivate
 
@@ -260,8 +260,8 @@ systemctl list-unit-files --type=service --state=enabled
 ### Instant ID
 ```shell
 pip install virtualenv
-%cd /content
-!virtualenv instant-id-venv
+cd /content
+virtualenv instant-id-venv
 . /content/instant-id-venv/bin/activate
 deactivate
 
