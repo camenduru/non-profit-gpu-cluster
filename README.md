@@ -174,10 +174,10 @@ chrome://flags/#unsafely-treat-insecure-origin-as-secure
 ### WebUI
 ```shell
 mkdir /content
-nano /etc/systemd/system/webui.service
+nano /etc/systemd/system/stable-diffusion-webui.service
 systemctl daemon-reload
-systemctl start webui
-systemctl enable webui
+systemctl start stable-diffusion-webui
+systemctl enable stable-diffusion-webui
 systemctl list-unit-files --type=service --state=enabled
 ```
 

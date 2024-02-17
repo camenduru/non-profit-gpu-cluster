@@ -1,10 +1,10 @@
 [Unit]
-Description=WebUI
+Description=Stable Diffusion WebUI
 After=syslog.target network.target
 [Service]
 User=root
-WorkingDirectory=/content/stable-diffusion-webui
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+WorkingDirectory=/content/stable-diffusion-webui
 ExecStart=/bin/bash -c '. /content/stable-diffusion-webui-venv/bin/activate && python launch.py --gradio-queue --xformers --device-id 0 --port 1000'
 Restart=always
 [Install]
