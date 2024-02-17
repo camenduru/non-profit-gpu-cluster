@@ -237,7 +237,9 @@ mkdir /content
 nano /etc/systemd/system/stable-diffusion-webui.service
 systemctl daemon-reload
 systemctl start stable-diffusion-webui
+systemctl stop stable-diffusion-webui
 systemctl enable stable-diffusion-webui
+systemctl disable stable-diffusion-webui
 systemctl list-unit-files --type=service --state=enabled
 ```
 
@@ -253,7 +255,9 @@ mkdir /content
 nano /etc/systemd/system/stable-cascade.service
 systemctl daemon-reload
 systemctl start stable-cascade
+systemctl stop stable-cascade
 systemctl enable stable-cascade
+systemctl disable stable-cascade
 systemctl list-unit-files --type=service --state=enabled
 ```
 
@@ -269,6 +273,8 @@ mkdir /content
 nano /etc/systemd/system/instant-id.service
 systemctl daemon-reload
 systemctl start instant-id
+systemctl stop instant-id
 systemctl enable instant-id
+systemctl disable instant-id
 systemctl list-unit-files --type=service --state=enabled
 ```
