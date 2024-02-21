@@ -41,6 +41,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ Case: Antec P20C-W (E-ATX)
 
 ## Budget & Sponsors
+- [artizen.fund](https://artizen.fund) [@RJPinnell](https://twitter.com/RJPinnell) [@ArtizenFund](https://twitter.com/ArtizenFund) | https://twitter.com/camenduru/status/1760205819839144182 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/13242948-2bcf-465d-81b0-4c0a3becf5a5)
 - [fictions.ai](https://fictions.ai/) [@thibaudz](https://twitter.com/thibaudz) | https://twitter.com/camenduru/status/1749788882877448451
 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/41756396-6289-4795-bd06-b1f234bf5d73)
 - Chai Prize Grant [@chai_research](https://twitter.com/chai_research) | https://twitter.com/chai_research/status/1702811327323070762
