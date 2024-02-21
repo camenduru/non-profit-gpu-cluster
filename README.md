@@ -54,7 +54,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - Total In First Server: $2462.58
 - Total Out First Server: $3239 (64GB RAM)
 - $2462.58 - $3239 = -$776.42 😐
-- Total In Second Server: $0
+- Total In Second Server: ~$319 (0.109 ETH)
 - Total Out Second Server: $349 (Optimistic Prediction) $3239 (64GB RAM)
 - $0 - $349 = -$349 😐
 - We need (Optimistic Prediction) $4015.42 😐
