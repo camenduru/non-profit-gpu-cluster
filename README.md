@@ -18,6 +18,8 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
 - ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot)
+- GPU3: 3090 OR A5000
+- GPU4: 3090 OR A5000
 - ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
 - ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
@@ -31,6 +33,8 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - GPU1: 3090 OR A5000
 - GPU2: 3090 OR A5000
+- GPU3: 3090 OR A5000
+- GPU4: 3090 OR A5000
 - Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
 - ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support)
 - CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
