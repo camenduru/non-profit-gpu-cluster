@@ -167,9 +167,11 @@ docker build -t base-notebook .
 
 Ubuntu 22.04 Python 3.10.11
 timeout 4h docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 1000:7860 quay.io/camenduru/base-notebook:latest
-timeout 4h docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 1000:7860 registry.hf.space/camenduru-base-notebook:latest
-timeout 4h docker container run -it --rm --gpus all -u root -e GRANT_SUDO=yes -p 1000:7860 camenduru/base-notebook:latest
+timeout 4h docker container run -it --rm --gpus device=0 -u root -e GRANT_SUDO=yes -p 1000:7860 registry.hf.space/camenduru-base-notebook:latest
+timeout 4h docker container run -it --rm --gpus device=1 -u root -e GRANT_SUDO=yes -p 1000:7860 camenduru/base-notebook:latest
 docker system prune -a
+
+docker cp /content/test.rar 76e35c4a6e8f:/home/jovyan/test.rar
 ```
 
 ### Other
