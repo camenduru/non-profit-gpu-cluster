@@ -279,3 +279,21 @@ systemctl enable instant-id
 systemctl disable instant-id
 systemctl list-unit-files --type=service --state=enabled
 ```
+
+### Forge
+```shell
+pip install virtualenv
+cd /content
+virtualenv forge-venv
+. /content/forge-venv/bin/activate
+deactivate
+
+mkdir /content
+nano /etc/systemd/system/forge.service
+systemctl daemon-reload
+systemctl start forge
+systemctl stop forge
+systemctl enable forge
+systemctl disable forge
+systemctl list-unit-files --type=service --state=enabled
+```
