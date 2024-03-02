@@ -172,6 +172,7 @@ timeout 4h docker container run -it --rm --gpus device=1 -u root -e GRANT_SUDO=y
 docker system prune -a
 
 docker cp /content/test.rar 76e35c4a6e8f:/home/jovyan/test.rar
+docker exec -it 76e35c4a6e8f bash
 ```
 
 ### Other
