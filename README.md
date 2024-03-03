@@ -300,3 +300,21 @@ systemctl enable forge
 systemctl disable forge
 systemctl list-unit-files --type=service --state=enabled
 ```
+
+### Dust3r
+```shell
+pip install virtualenv
+cd /content
+virtualenv dust3r-venv
+. /content/dust3r-venv/bin/activate
+deactivate
+
+mkdir /content
+nano /etc/systemd/system/dust3r.service
+systemctl daemon-reload
+systemctl start dust3r
+systemctl stop dust3r
+systemctl enable dust3r
+systemctl disable dust3r
+systemctl list-unit-files --type=service --state=enabled
+```
