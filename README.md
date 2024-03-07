@@ -318,3 +318,21 @@ systemctl enable dust3r
 systemctl disable dust3r
 systemctl list-unit-files --type=service --state=enabled
 ```
+
+### TripoSR
+```shell
+pip install virtualenv
+cd /content
+virtualenv TripoSR-venv
+. /content/TripoSR-venv/bin/activate
+deactivate
+
+mkdir /content
+nano /etc/systemd/system/triposr.service
+systemctl daemon-reload
+systemctl start triposr
+systemctl stop triposr
+systemctl enable triposr
+systemctl disable triposr
+systemctl list-unit-files --type=service --state=enabled
+```
