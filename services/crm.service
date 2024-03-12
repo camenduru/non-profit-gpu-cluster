@@ -1,0 +1,11 @@
+[Unit]
+Description=Forge
+After=syslog.target network.target
+[Service]
+User=root
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+WorkingDirectory=/content/CRM-hf
+ExecStart=/bin/bash -c '. /content/crm-venv/bin/activate && python app.py'
+Restart=always
+[Install]
+WantedBy=multi-user.target

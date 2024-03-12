@@ -336,3 +336,21 @@ systemctl enable triposr
 systemctl disable triposr
 systemctl list-unit-files --type=service --state=enabled
 ```
+
+### CRM
+```shell
+pip install virtualenv
+cd /content
+virtualenv crm-venv
+. /content/crm-venv/bin/activate
+deactivate
+
+mkdir /content
+nano /etc/systemd/system/crm.service
+systemctl daemon-reload
+systemctl start crm
+systemctl stop crm
+systemctl enable crm
+systemctl disable crm
+systemctl list-unit-files --type=service --state=enabled
+```
