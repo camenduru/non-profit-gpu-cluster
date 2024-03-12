@@ -201,6 +201,8 @@ https://github.com/raboof/nethogs
 
 ### Jupyter
 ```shell
+https://github.com/jupyterlab/jupyterlab
+
 mkdir /content
 nano /etc/systemd/system/jupyter-lab.service
 systemctl daemon-reload
@@ -213,6 +215,7 @@ pip install pickleshare ipywidgets
 ### OpenVSCode
 ```shell
 https://github.com/coder/code-server
+
 curl -fsSL https://code-server.dev/install.sh | sh
 nano /etc/systemd/system/default.target.wants/code-server@root.service
 systemctl enable --now code-server@$USER
@@ -231,6 +234,8 @@ chrome://flags/#unsafely-treat-insecure-origin-as-secure
 
 ### Stable Diffusion WebUI
 ```shell
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
 pip install virtualenv
 cd /content
 virtualenv stable-diffusion-webui-venv
@@ -249,6 +254,8 @@ systemctl list-unit-files --type=service --state=enabled
 
 ### Stable Cascade
 ```shell
+https://github.com/Stability-AI/StableCascade
+
 pip install virtualenv
 cd /content
 virtualenv stable-cascade-venv
@@ -267,6 +274,8 @@ systemctl list-unit-files --type=service --state=enabled
 
 ### Instant ID
 ```shell
+https://github.com/InstantID/InstantID
+
 pip install virtualenv
 cd /content
 virtualenv instant-id-venv
@@ -285,6 +294,8 @@ systemctl list-unit-files --type=service --state=enabled
 
 ### Forge
 ```shell
+https://github.com/lllyasviel/stable-diffusion-webui-forge
+
 pip install virtualenv
 cd /content
 virtualenv forge-venv
@@ -303,6 +314,8 @@ systemctl list-unit-files --type=service --state=enabled
 
 ### Dust3r
 ```shell
+https://github.com/naver/dust3r
+
 pip install virtualenv
 cd /content
 virtualenv dust3r-venv
@@ -321,6 +334,8 @@ systemctl list-unit-files --type=service --state=enabled
 
 ### TripoSR
 ```shell
+https://github.com/VAST-AI-Research/TripoSR
+
 pip install virtualenv
 cd /content
 virtualenv TripoSR-venv
@@ -339,6 +354,8 @@ systemctl list-unit-files --type=service --state=enabled
 
 ### CRM
 ```shell
+https://github.com/thu-ml/CRM
+
 pip install virtualenv
 cd /content
 virtualenv crm-venv
