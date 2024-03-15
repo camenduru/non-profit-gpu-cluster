@@ -371,3 +371,23 @@ systemctl enable crm
 systemctl disable crm
 systemctl list-unit-files --type=service --state=enabled
 ```
+
+### VisualStylePrompting
+```shell
+https://github.com/naver-ai/Visual-Style-Prompting
+
+pip install virtualenv
+cd /content
+virtualenv VisualStylePrompting-venv
+. /content/VisualStylePrompting-venv/bin/activate
+deactivate
+
+mkdir /content
+nano /etc/systemd/system/VisualStylePrompting.service
+systemctl daemon-reload
+systemctl start VisualStylePrompting
+systemctl stop VisualStylePrompting
+systemctl enable VisualStylePrompting
+systemctl disable VisualStylePrompting
+systemctl list-unit-files --type=service --state=enabled
+```
