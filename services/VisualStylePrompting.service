@@ -1,5 +1,5 @@
 [Unit]
-Description=VisualStylePrompting
+Description=Visual Style Prompting
 After=syslog.target network.target
 [Service]
 User=root

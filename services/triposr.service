@@ -1,5 +1,5 @@
 [Unit]
-Description=TripoSR
+Description=Tripo SR
 After=syslog.target network.target
 [Service]
 User=root

@@ -1,5 +1,5 @@
 [Unit]
-Description=JupyterLab
+Description=Jupyter Lab
 After=syslog.target network.target
 [Service]
 User=root
