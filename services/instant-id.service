@@ -4,6 +4,7 @@ After=syslog.target network.target
 [Service]
 User=root
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+Environment="GRADIO_ANALYTICS_ENABLED=False"
 WorkingDirectory=/content/InstantID-hf
 ExecStart=/bin/bash -c '. /content/instant-id-venv/bin/activate && python app2.py'
 Restart=always

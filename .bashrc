@@ -100,3 +100,4 @@ fi
 
 export PATH="$PATH:/usr/local/cuda/bin"
 export DEBIAN_FRONTEND=noninteractive
+export GRADIO_ANALYTICS_ENABLED=False

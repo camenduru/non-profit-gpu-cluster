@@ -4,6 +4,7 @@ After=syslog.target network.target
 [Service]
 User=root
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+Environment="GRADIO_ANALYTICS_ENABLED=False"
 ExecStart=jupyter lab --allow-root --port 80 --ip 0.0.0.0 --no-browse --notebook-dir /content --NotebookApp.token='' --ContentsManager.allow_hidden True
 [Install]
 WantedBy=multi-user.target
