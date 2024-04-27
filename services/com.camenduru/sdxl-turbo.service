@@ -1,0 +1,12 @@
+[Unit]
+Description=SDXL Turbo
+After=syslog.target network.target
+[Service]
+User=root
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+Environment="GRADIO_ANALYTICS_ENABLED=False"
+WorkingDirectory=/content/com.camenduru
+ExecStart=/bin/bash -c 'python discord_sdxl_turbo_worker.py'
+Restart=always
+[Install]
+WantedBy=multi-user.target

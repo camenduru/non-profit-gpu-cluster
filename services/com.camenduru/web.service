@@ -1,0 +1,11 @@
+[Unit]
+Description=Web
+After=syslog.target network.target
+[Service]
+User=root
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+WorkingDirectory=/content/com.camenduru/web
+ExecStart=/bin/bash -c 'java -Dcom_camenduru_discord_token=MT -Dcom_camenduru_web_data_mongodb_uri=mongodb+srv:// -Dcom_camenduru_discord_type=sdxl -Dcom_camenduru_web_mail_host=smtp.gmail.com -Dcom_camenduru_web_mail_password=password -Dcom_camenduru_web_mail_port=587 -Dcom_camenduru_web_mail_smtp_ssl_trust=smtp.gmail.com -Dcom_camenduru_web_mail_username=mail@gmail.com -Dserver.port=3000 -jar target/web-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod'
+Restart=always
+[Install]
+WantedBy=multi-user.target
