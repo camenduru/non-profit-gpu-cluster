@@ -4,8 +4,12 @@ After=syslog.target network.target
 [Service]
 User=root
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin"
+Environment="com_camenduru_web_data_mongodb_uri=mongodb+srv://"
+Environment="com_camenduru_discord_api_url=http://127.0.0.1:1002"
+Environment="com_camenduru_discord_token=MT"
+Environment="com_camenduru_discord_job_type=sdxl"
 Environment="GRADIO_ANALYTICS_ENABLED=False"
-WorkingDirectory=/content/com.camenduru
+WorkingDirectory=/content/com.camenduru/service
 ExecStart=/bin/bash -c 'python discord_sdxl_turbo_dispatcher.py'
 Restart=always
 [Install]
