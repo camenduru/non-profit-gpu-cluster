@@ -21,8 +21,8 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support) $628
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197
 - ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $78
-- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22 $95
-- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22 $95
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $95
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $95
 - ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $271
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $249
 - ✔ Case: Antec P20C-W (E-ATX) $89
@@ -32,11 +32,13 @@ https://twitter.com/camenduru/status/1747802652182737050
 - GPU1: 3090 OR A5000
 - GPU2: 3090 OR A5000
 - ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support) $634
-- ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) $33
+- ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) (Nonpermanent) $33
+- CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
 - CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
-- Ram: 1 x 32GB DDR4 1rx4 2933MHz or 3200MHz
-- Ram: 1 x 32GB DDR4 1rx4 2933MHz or 3200MHz
-- ✔ SSD: 1.92TB SSD SATA 2.5'' 550-530 MB/s $98
+- Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22
+- Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22
+- ✔ SSD: 1.92TB SSD SATA 2.5'' 550-530 MB/s (Nonpermanent) $98
+- SSD: Kingston Nv2 4TB M.2 2280 Nvme SSD (3500-2800MB/S)
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
 - ✔ Case: Antec P20C-W (E-ATX) $89
 
@@ -71,7 +73,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 ### January 31, 2024
 ✔ CPU1: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197 <br />
 ✔ CPU2: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) $33 <br />
-✔ RAM1: 1 x 32GB (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
+✔ RAM1: 1 x 32GB (Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22) $95 <br />
 ✔ SSD1: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $271 <br />
 
 ### January 27, 2024
@@ -94,7 +96,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ### January 19 2024
 ✔ Motherboard1: (Pro WS C621-64L SAGE) $628 <br />
-✔ RAM1: 1 x 32GB (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
+✔ RAM1: 1 x 32GB (Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22) $95 <br />
 ✔ Case1: (Antec P20C-W) $89 <br />
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
 
