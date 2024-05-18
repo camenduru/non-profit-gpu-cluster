@@ -16,29 +16,29 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## First Server Parts
 
-- ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot)
-- ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot)
-- ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
-- ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
-- ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
-- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22
-- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22
-- ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 Mb/s
-- ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
-- ✔ Case: Antec P20C-W (E-ATX)
+- ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $747
+- ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot) $790
+- ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support) $628
+- ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197
+- ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $78
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22 $95
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22 $95
+- ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $271
+- ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $249
+- ✔ Case: Antec P20C-W (E-ATX) $89
 
 ## Second Server Parts
 
 - GPU1: 3090 OR A5000
 - GPU2: 3090 OR A5000
-- Motherboard: Pro WS C621-64L SAGE (4 GPU Support)
-- ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support)
+- ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support) $634
+- ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) $33
 - CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
 - Ram: 1 x 32GB DDR4 1rx4 2933MHz or 3200MHz
 - Ram: 1 x 32GB DDR4 1rx4 2933MHz or 3200MHz
-- SSD: 4TB 6Gb/s
-- ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium
-- ✔ Case: Antec P20C-W (E-ATX)
+- ✔ SSD: 1.92TB SSD SATA 2.5'' 550-530 MB/s $98
+- ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
+- ✔ Case: Antec P20C-W (E-ATX) $89
 
 ## Budget & Sponsors
 - [artizen.fund](https://artizen.fund) [@RJPinnell](https://twitter.com/RJPinnell) [@ArtizenFund](https://twitter.com/ArtizenFund) | https://twitter.com/camenduru/status/1760205819839144182 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/13242948-2bcf-465d-81b0-4c0a3becf5a5)
@@ -61,11 +61,17 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## Updates
 
+### May 17, 2024
+✔ Motherboard2: Pro WS C621-64L SAGE (4 GPU Support) $634 <br />
+
+### April 04, 2024
+✔ SSD2: 1.92TB SSD SATA 2.5'' 550-530 MB/s $98 <br />
+
 ### January 31, 2024
 ✔ CPU1: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197 <br />
 ✔ CPU2: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) $33 <br />
 ✔ RAM1: 1 x 32GB (Micron 32GB DDR4-3200 RDIMM 1Rx4 CL22) $95 <br />
-✔ SSD1: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 Mb/s $271 <br />
+✔ SSD1: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $271 <br />
 
 ### January 27, 2024
 ✔ Power Supply2: Corsair AX1500i 1500 Watt 80+ Titanium $227 <br />
