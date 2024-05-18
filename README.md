@@ -41,17 +41,20 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ Case: Antec P20C-W (E-ATX) $89
 
 ## Budget & Sponsors
-- [@0xKyon](https://x.com/0xKyon) | https://x.com/camenduru/status/1777537399343513978 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/8507cd89-1764-4c5d-a8ee-2e3c8c0509d1)
-- [@0xKyon](https://x.com/0xKyon) | https://x.com/camenduru/status/1786356739979313312 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/9359db9d-9ba8-46ca-9ce8-f63b7652eaf8)
+- April Sponsor [@0xKyon](https://x.com/0xKyon) | https://x.com/camenduru/status/1777537399343513978 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/8507cd89-1764-4c5d-a8ee-2e3c8c0509d1)
+- May Sponsor [@0xKyon](https://x.com/0xKyon) | https://x.com/camenduru/status/1786356739979313312 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/9359db9d-9ba8-46ca-9ce8-f63b7652eaf8)
+- March Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://x.com/camenduru/status/1768848878017675430 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/0fcbb257-f756-4471-b12e-2b32736a8ffa)
+- February Sponsor [@replicate](https://x.com/replicate) | https://x.com/camenduru/status/1753460739954630776 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/31d045a5-3f43-4c65-bf2d-860a93171b80)
 - [artizen.fund](https://artizen.fund) [@RJPinnell](https://twitter.com/RJPinnell) [@ArtizenFund](https://twitter.com/ArtizenFund) | https://twitter.com/camenduru/status/1760205819839144182 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/13242948-2bcf-465d-81b0-4c0a3becf5a5)
 - [fictions.ai](https://fictions.ai/) [@thibaudz](https://twitter.com/thibaudz) | https://twitter.com/camenduru/status/1749788882877448451
 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/41756396-6289-4795-bd06-b1f234bf5d73)
 - Chai Prize Grant [@chai_research](https://twitter.com/chai_research) | https://twitter.com/chai_research/status/1702811327323070762
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/ecef1797-2d8a-42f1-b8f5-d336a9dc3df3)
-- December Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1729995264096641233
-![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/6e41805b-01ff-40bb-9dfe-38dd2ac7e572)
 - January Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1744371512981794865
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/4c1aa14c-e8ad-461d-a458-d37f78ad4d2e)
+- December Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1729995264096641233
+![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/6e41805b-01ff-40bb-9dfe-38dd2ac7e572)
+
 - Patreon Members (2023 + Jan 2024) https://www.patreon.com/camenduru
 - Total In First Server: $2462.58
 - Total Out First Server: $3239 (64GB RAM)
