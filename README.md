@@ -55,14 +55,10 @@ https://twitter.com/camenduru/status/1747802652182737050
 - December Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1729995264096641233
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/6e41805b-01ff-40bb-9dfe-38dd2ac7e572)
 
-- Patreon Members (2023 + Jan 2024) https://www.patreon.com/camenduru
-- Total In First Server: $2462.58
-- Total Out First Server: $3239 (64GB RAM)
-- $2462.58 - $3239 = -$776.42 😐
-- Total In Second Server: ~$319 (0.109 ETH)
-- Total Out Second Server: $349 (Optimistic Prediction) $3239 (64GB RAM)
-- ~$319 - $349 = -$30 😐
-- We need (Optimistic Prediction) $3696.42 😐
+- [First Server] Total Out: $3239
+- https://tost.ai 2 Years Registration $138
+- [Second Server] Total Out (Optimistic Prediction): $3373
+- For the second server, we still need $897
 
 ## Updates
 
