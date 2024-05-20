@@ -33,10 +33,10 @@ https://twitter.com/camenduru/status/1747802652182737050
 - GPU2: 3090 OR A5000
 - ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support) $634
 - ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) (Nonpermanent) $33
-- CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support)
-- CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow)
-- Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22
-- Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22
+- ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190
+- ✔ CPU Cooler: Noctua NH-U12S DX-3647 $146
+- ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85
+- ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85
 - ✔ SSD: 1.92TB SSD SATA 2.5'' 550-530 MB/s (Nonpermanent) $98
 - SSD: Kingston Nv2 4TB M.2 2280 Nvme SSD (3500-2800MB/S)
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
@@ -63,6 +63,12 @@ https://twitter.com/camenduru/status/1747802652182737050
 - For the second server, we still need $897
 
 ## Updates
+
+### May 20, 2024
+✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190 <br />
+✔ CPU Cooler: Noctua NH-U12S DX-3647 $146 <br />
+✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85 <br />
+✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85 <br />
 
 ### May 17, 2024
 ✔ Motherboard2: Pro WS C621-64L SAGE (4 GPU Support) $634 <br />
