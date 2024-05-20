@@ -59,8 +59,8 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - [First Server] Total Out: $3239
 - https://tost.ai 2 Years Registration $138
-- [Second Server] Total Out (Optimistic Prediction): $3373
-- For the second server, we still need $897
+- [Second Server] Total Out (Optimistic Prediction): $3441
+- For the second server, we still need $965 😐
 
 ## Updates
 
