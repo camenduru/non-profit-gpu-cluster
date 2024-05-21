@@ -18,7 +18,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $747
 - ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot) $790
-- ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support) $628
+- ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $628
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197
 - ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $78
 - ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $95
@@ -31,7 +31,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - GPU1: 3090 OR A5000
 - GPU2: 3090 OR A5000
-- ✔ Motherboard: Pro WS C621-64L SAGE (4 GPU Support) $634
+- ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $634
 - ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) (Nonpermanent) $33
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190
 - ✔ CPU Cooler: Noctua NH-U12S DX-3647 $146
@@ -71,7 +71,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85 <br />
 
 ### May 17, 2024
-✔ Motherboard2: Pro WS C621-64L SAGE (4 GPU Support) $634 <br />
+✔ Motherboard2: Asus Pro WS C621-64L SAGE (4 GPU Support) $634 <br />
 
 ### April 04, 2024
 ✔ SSD2: 1.92TB SSD SATA 2.5'' 550-530 MB/s $98 <br />
@@ -101,7 +101,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 ✔ CPU Cooler1: 4U Active CPU Heat Sink LGA3647 (Narrow) $78 <br />
 
 ### January 19 2024
-✔ Motherboard1: (Pro WS C621-64L SAGE) $628 <br />
+✔ Motherboard1: (Asus Pro WS C621-64L SAGE) $628 <br />
 ✔ RAM1: 1 x 32GB (Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22) $95 <br />
 ✔ Case1: (Antec P20C-W) $89 <br />
 ![mb_one_ram_case](https://github.com/camenduru/Community-GPU-Cluster/assets/54370274/805fdf46-4fee-46d3-a41b-b827d959e860)
