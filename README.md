@@ -29,16 +29,15 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## Second Server Parts
 
-- GPU1: 3090 OR A5000
+- ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $745
 - GPU2: 3090 OR A5000
+- ✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26
 - ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $634
-- ✔ CPU: Intel® Xeon® Silver 4110 Processor (48 Lane PCIe 3.0) (3 GPU Support) (Nonpermanent) $33
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190
 - ✔ CPU Cooler: Noctua NH-U12S DX-3647 $146
 - ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85
 - ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85
-- ✔ SSD: 1.92TB SSD SATA 2.5'' 550-530 MB/s (Nonpermanent) $98
-- SSD: Kingston Nv2 4TB M.2 2280 Nvme SSD (3500-2800MB/S)
+- ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $305
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
 - ✔ Case: Antec P20C-W (E-ATX) $89
 
@@ -59,10 +58,15 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - [First Server] Total Out: $3239
 - https://tost.ai 2 Years Registration $138
-- [Second Server] Total Out (Optimistic Prediction): $3441
-- For the second server, we still need $965 😐
+- [Second Server] Total Out (Optimistic Prediction): $3277
+- For the second server, we still need $931 😐
 
 ## Updates
+
+### May 22, 2024
+✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26 <br />
+✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $745 <br />
+✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $305 <br />
 
 ### May 20, 2024
 ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190 <br />
@@ -72,9 +76,6 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ### May 17, 2024
 ✔ Motherboard2: Asus Pro WS C621-64L SAGE (4 GPU Support) $634 <br />
-
-### April 04, 2024
-✔ SSD2: 1.92TB SSD SATA 2.5'' 550-530 MB/s $98 <br />
 
 ### January 31, 2024
 ✔ CPU1: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197 <br />
