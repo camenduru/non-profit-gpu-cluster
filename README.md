@@ -16,8 +16,8 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## First Server Parts
 
-- ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $747
-- ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot) $790
+- ✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $747
+- ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (default 3-slot with Liquid Cooler 2-slot) $790
 - ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $628
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197
 - ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $78
@@ -29,7 +29,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ## Second Server Parts
 
-- ✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $745
+- ✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $745
 - GPU2: 3090 OR A5000
 - ✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26
 - ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $634
@@ -65,7 +65,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ### May 22, 2024
 ✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26 <br />
-✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $745 <br />
+✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $745 <br />
 ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $305 <br />
 
 ### May 20, 2024
@@ -88,7 +88,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 ✔ Case2: (Antec P20C-W) $89 <br />
 
 ### January 24, 2024
-✔ GPU2: Asus ROG Strix RTX3090 O24G-W (3-slot 24GB with Liquid Cooler 2-slot) $790 <br />
+✔ GPU2: Asus ROG Strix RTX3090 O24G-W (default 3-slot with Liquid Cooler 2-slot) $790 <br />
 
 ### January 23, 2024
 ✔ 🧿 The non-profit GPU cluster is now running [instantid.github.io](https://instantid.github.io/) 🥳 (operating with an old motherboard and CPU because our new CPU has not arrived yet)
@@ -97,7 +97,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 ✔ 🧿 The non-profit GPU cluster is now running [photo-maker.github.io](https://photo-maker.github.io/) 🥳 (operating with an old motherboard and CPU because our new CPU has not arrived yet)
 
 ### January 20 2024
-✔ GPU1: Asus ROG Strix RTX3090 O24G (3-slot 24GB with Liquid Cooler 2-slot) $747 <br />
+✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $747 <br />
 ✔ Power Supply1: Corsair AX1500i 1500 Watt 80+ Titanium $249 <br />
 ✔ CPU Cooler1: 4U Active CPU Heat Sink LGA3647 (Narrow) $78 <br />
 
