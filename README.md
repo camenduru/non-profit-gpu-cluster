@@ -35,8 +35,8 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $634
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190
 - ✔ CPU Cooler: Noctua NH-U12S DX-3647 $146
-- ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85
-- ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85
+- ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-UDIMM 2Rx8 CL22 $85
+- ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-UDIMM 2Rx8 CL22 $85
 - ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $305
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
 - ✔ Case: Antec P20C-W (E-ATX) $89
@@ -71,8 +71,8 @@ https://twitter.com/camenduru/status/1747802652182737050
 ### May 20, 2024
 ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190 <br />
 ✔ CPU Cooler: Noctua NH-U12S DX-3647 $146 <br />
-✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85 <br />
-✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-LDIMM 2Rx8 CL22 $85 <br />
+✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-UDIMM 2Rx8 CL22 $85 <br />
+✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-UDIMM 2Rx8 CL22 $85 <br />
 
 ### May 17, 2024
 ✔ Motherboard2: Asus Pro WS C621-64L SAGE (4 GPU Support) $634 <br />
