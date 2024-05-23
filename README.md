@@ -153,6 +153,8 @@ https://forums.developer.nvidia.com/t/enabling-resizable-bar-on-rtx-30-series-gp
 
 ### Python 3.10.12
 ```shell
+pip install -q torch==2.2.1+cu121 torchvision==0.17.1+cu121 torchaudio==2.2.1+cu121 torchtext==0.17.1 torchdata==0.7.1 --extra-index-url https://download.pytorch.org/whl/cu121
+pip install -q xformers==0.0.25
 pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121 torchtext==0.16.0 torchdata==0.7.0 --extra-index-url https://download.pytorch.org/whl/cu121
 pip install notebook
 pip show torch notebook
