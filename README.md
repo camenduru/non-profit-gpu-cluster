@@ -66,6 +66,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 ### May 22, 2024
 ✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26 <br />
+✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26 <br />
 ✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $745 <br />
 
 ### May 20, 2024
