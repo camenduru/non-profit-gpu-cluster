@@ -18,6 +18,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - ✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $747
 - ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (default 3-slot with Liquid Cooler 2-slot) $790
+- ✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26
 - ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $628
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $197
 - ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $78
@@ -37,7 +38,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ CPU Cooler: Noctua NH-U12S DX-3647 $146
 - ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-UDIMM 2Rx8 CL22 $85
 - ✔ Ram: 1 x 32GB Transcend TS4GLH72V2E3 32GB DDR4-3200 ECC-UDIMM 2Rx8 CL22 $85
-- ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $305
+- SSD: 4TB
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
 - ✔ Case: Antec P20C-W (E-ATX) $89
 
@@ -56,17 +57,16 @@ https://twitter.com/camenduru/status/1747802652182737050
 - December Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1729995264096641233
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/6e41805b-01ff-40bb-9dfe-38dd2ac7e572)
 
-- [First Server] Total Out: $3239
+- [First Server] Total Out: $3265
 - https://tost.ai 2 Years Registration $138
-- [Second Server] Total Out (Optimistic Prediction): $3277
-- For the second server, we still need $931 😐
+- [Second Server] Total Out (Optimistic Prediction): $3292
+- For the second server, we still need $941 😐
 
 ## Updates
 
 ### May 22, 2024
 ✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26 <br />
 ✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $745 <br />
-✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $305 <br />
 
 ### May 20, 2024
 ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190 <br />
