@@ -35,10 +35,10 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26
 - ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $634
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190
-- CPU Cooler
+- ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $63
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107
 - Ram: 1 x 32GB
-- Ram: 1 x 32GB
-- SSD: 4TB
+- ✔ SSD: Patriot Viper VP4300 Lite 4TB Gen 4x4 7400-6000 MB/s $262
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
 - ✔ Case: Antec P20C-W (E-ATX) $89
 
@@ -59,10 +59,15 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - [First Server] Total Out: $3265
 - https://tost.ai 2 Years Registration $138
-- [Second Server] Total Out (Optimistic Prediction): $3292
-- For the second server, we still need $941 😐
+- [Second Server] Total Out (Optimistic Prediction): $3163
+- For the second server, we still need $820 😐
 
 ## Updates
+
+### June 6, 2024
+✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $63 <br />
+✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107 <br />
+✔ SSD: Patriot Viper VP4300 Lite 4TB Gen 4x4 7400-6000 MB/s $262 <br />
 
 ### May 22, 2024
 ✔ 3 x Case Fan: NZXT AER P - RF-AP140-FP $26 <br />
