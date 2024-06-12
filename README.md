@@ -37,7 +37,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190
 - ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $63
 - ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107
-- Ram: 1 x 32GB
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107
 - ✔ SSD: Patriot Viper VP4300 Lite 4TB Gen 4x4 7400-6000 MB/s $262
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
 - ✔ Case: Antec P20C-W (E-ATX) $89
@@ -63,6 +63,9 @@ https://twitter.com/camenduru/status/1747802652182737050
 - For the second server, we still need $820 😐
 
 ## Updates
+
+### June 12, 2024
+✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107 <br />
 
 ### June 6, 2024
 ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $63 <br />
