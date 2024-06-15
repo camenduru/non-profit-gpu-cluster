@@ -417,3 +417,10 @@ systemctl enable VisualStylePrompting
 systemctl disable VisualStylePrompting
 systemctl list-unit-files --type=service --state=enabled
 ```
+
+### Web
+```shell
+apt install openjdk-21-jdk
+
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+```
