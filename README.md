@@ -423,4 +423,10 @@ systemctl list-unit-files --type=service --state=enabled
 apt install openjdk-21-jdk
 
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
+
+nvm install 18.20.3
 ```
