@@ -430,3 +430,19 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm install 18.20.3
 ```
+
+### FFmpeg
+```shell
+!mkdir /content/ffmpeg
+%cd /content/ffmpeg
+!git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
+%cd nv-codec-headers
+!sudo make install
+%cd /content/ffmpeg
+!git clone https://git.ffmpeg.org/ffmpeg.git /content/ffmpeg/ffmpeg
+%cd /content/ffmpeg/ffmpeg
+!sudo apt-get install build-essential yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev -y
+!./configure --enable-nonfree --enable-cuda-nvcc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-shared
+!make -j 24
+!make install
+```
