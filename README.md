@@ -153,6 +153,8 @@ ldconfig
 nvcc --version
 
 nvidia-smi -q | grep -i bar -A 3
+lsmod | grep -i nvidia
+rmmod nvidia_drm nvidia_modeset nvidia_uvm nvidia
 https://www.nvidia.com/en-us/geforce/news/geforce-rtx-30-series-resizable-bar-support/
 https://forums.developer.nvidia.com/t/enabling-resizable-bar-on-rtx-30-series-gpus-in-linux/239950
 ```
