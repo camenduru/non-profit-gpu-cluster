@@ -272,6 +272,9 @@ nvm install 18.20.3
 
 sftp root@192.168.1.100
 get -r /content/folder /content/folder
+
+mongodump --db=web --out=/content/folder/db
+mongorestore --db=web /content/folder/db/web
 ```
 
 ### FFmpeg
