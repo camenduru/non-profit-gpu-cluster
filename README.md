@@ -275,6 +275,10 @@ get -r /content/folder /content/folder
 
 mongodump --db=web --out=/content/folder/db
 mongorestore --db=web /content/folder/db/web
+pip install pymongo
+
+journalctl -u dispatcher-web-name.service
+systemctl list-units --type=service --state=running
 ```
 
 ### FFmpeg
