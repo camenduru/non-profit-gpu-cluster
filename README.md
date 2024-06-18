@@ -14,7 +14,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - End-of-the-year goal: 6 servers with a total of 24 x A5000 or 3090 GPUs.
 
 
-## First Server Parts
+## Server 1 Parts (Training and Inference)
 
 - ✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $747
 - ✔ GPU2: Asus ROG Strix RTX3090 O24G-W (default 3-slot with Liquid Cooler 2-slot) $790
@@ -28,7 +28,7 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $249
 - ✔ Case: Antec P20C-W (E-ATX) $89
 
-## Second Server Parts
+## Server 2 Parts (Training and Inference)
 
 - ✔ GPU1: Asus ROG Strix RTX3090 O24G (default 3-slot with Liquid Cooler 2-slot) $745
 - GPU2: 3090 OR A5000
@@ -41,6 +41,17 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ SSD: Patriot Viper VP4300 Lite 4TB Gen 4x4 7400-6000 MB/s $262
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
 - ✔ Case: Antec P20C-W (E-ATX) $89
+
+## Server 3 Parts (Database - Web - Dispatcher - Scheduler)
+
+- ✔ Motherboard: Asus Z97-A $30
+- ✔ CPU: Intel® Core™ i7-4790K Processor $60
+- ✔ CPU Cooler: CPU Heat Sink $5
+- ✔ Ram: 1 x 8 GB G-SKILL DDR3-1333 DIMM $15
+- ✔ Ram: 1 x 8 GB G-SKILL DDR3-1333 DIMM $15
+- ✔ SSD: Kingston 256 GB $30
+- ✔ Power supply: Corsair VS650 Watt $45
+- ✔ Case: ATX $10
 
 ## Budget & Sponsors
 - May Sponsor [@0xKyon](https://x.com/0xKyon) | https://x.com/camenduru/status/1786356739979313312 ![image](https://github.com/camenduru/non-profit-gpu-cluster/assets/54370274/9359db9d-9ba8-46ca-9ce8-f63b7652eaf8)
@@ -57,10 +68,11 @@ https://twitter.com/camenduru/status/1747802652182737050
 - December Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1729995264096641233
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/6e41805b-01ff-40bb-9dfe-38dd2ac7e572)
 
-- [First Server] Total: $3265
+- [Server 1] Total: $3265
 - https://tost.ai 2 Years Registration $138
-- [Second Server] Total (Optimistic Prediction): $3163
+- [Server 2] Total (Optimistic Prediction): $3163
 - For the second server, we still need $820 😐
+- [Server 3] Total: $210
 
 ## Updates
 
