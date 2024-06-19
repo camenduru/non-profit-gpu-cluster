@@ -284,6 +284,9 @@ nvm install 18.20.3
 npm install -g generator-jhipster
 npm install -g yo
 
+./mvnw
+npm start
+
 sftp root@192.168.1.100
 get -r /content/folder /content/folder
 
