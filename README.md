@@ -281,6 +281,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
 
 nvm install 18.20.3
+npm install -g generator-jhipster
+npm install -g yo
 
 sftp root@192.168.1.100
 get -r /content/folder /content/folder
