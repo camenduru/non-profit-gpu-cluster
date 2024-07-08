@@ -24,6 +24,8 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $78
 - ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $95
 - ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $95
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $110
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $110
 - ✔ SSD: Lexar NM790 4TB M.2 NVMe PCIe Gen 4X4 7400-6500 MB/s $271
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $249
 - ✔ Case: Antec P20C-W (E-ATX) $89
@@ -68,13 +70,17 @@ https://twitter.com/camenduru/status/1747802652182737050
 - December Sponsor [@adhik_Joshi](https://twitter.com/adhik_Joshi) | https://twitter.com/camenduru/status/1729995264096641233
 ![image](https://github.com/camenduru/community-gpu-cluster/assets/54370274/6e41805b-01ff-40bb-9dfe-38dd2ac7e572)
 
-- [Server 1] Total: $3265
+- [Server 1] Total: $3485
 - https://tost.ai 2 Years Registration $138
 - [Server 2] Total (Optimistic Prediction): $3163
 - For the second server, we still need $820 😐
 - [Server 3] Total: $210
 
 ## Updates
+
+### July 7, 2024
+✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $110 <br />
+✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $110 <br />
 
 ### June 12, 2024
 ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107 <br />
