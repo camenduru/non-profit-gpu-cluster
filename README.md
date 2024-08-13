@@ -320,8 +320,9 @@ https://docs.nvidia.com/video-technologies/index.html
 %cd /content/ffmpeg
 !git clone https://git.ffmpeg.org/ffmpeg.git /content/ffmpeg/ffmpeg
 %cd /content/ffmpeg/ffmpeg
-!sudo apt-get install build-essential yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev pkg-config -y
-!./configure --enable-nonfree --enable-cuda-nvcc --enable-nvenc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-shared --enable-libmp3lame
+!apt install build-essential pkg-config yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev libfdk-aac-dev libmp3lame-dev libopus-dev libx264-dev libx265-dev -y
+!./configure --enable-nonfree --enable-cuda-nvcc --enable-nvenc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-shared --enable-libmp3lame --enable-gpl --enable-libfdk-aac --enable-libopus --enable-libx264 --enable-openssl
 !make -j 24
 !make install
+!ldconfig
 ```
