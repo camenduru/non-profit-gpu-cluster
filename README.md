@@ -325,4 +325,5 @@ https://docs.nvidia.com/video-technologies/index.html
 !make -j 24
 !make install
 !ldconfig
+Environment="IMAGEIO_FFMPEG_EXE=ffmpeg"
 ```
