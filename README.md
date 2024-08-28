@@ -244,6 +244,8 @@ cd btop
 make
 make install PREFIX=/usr
 
+git clone https://github.com/aristocratos/btop && cd btop && make && make install
+
 https://github.com/raboof/nethogs
 ```
 
