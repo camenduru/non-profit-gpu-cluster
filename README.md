@@ -38,8 +38,10 @@ https://twitter.com/camenduru/status/1747802652182737050
 - ✔ Motherboard: Asus Pro WS C621-64L SAGE (4 GPU Support) $634
 - ✔ CPU: Intel® Xeon® W-3235 Processor (64 Lane PCIe 3.0) (4 GPU Support) $190
 - ✔ CPU Cooler: 4U Active CPU Heat Sink LGA3647 (Narrow) $63
-- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107
-- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 2Rx4 CL22 $88
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 2Rx4 CL22 $88
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 2Rx4 CL22 $107
+- ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 2Rx4 CL22 $107
 - ✔ SSD: Patriot Viper VP4300 Lite 4TB Gen 4x4 7400-6000 MB/s $262
 - ✔ Power supply: Corsair AX1500i 1500 Watt 80+ Titanium $227
 - ✔ Case: Antec P20C-W (E-ATX) $89
@@ -72,15 +74,19 @@ https://twitter.com/camenduru/status/1747802652182737050
 
 - [Server 1] Total: $3485
 - https://tost.ai 2 Years Registration $138
-- [Server 2] Total (Optimistic Prediction): $3163
-- For the second server, we still need $820 😐
+- [Server 2] Total: $3270
+- For the second server, we still need $644 😐
 - [Server 3] Total: $210
 
 ## Updates
 
+### August 28, 2024
+✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 2Rx4 CL22 $88 <br />
+✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 2Rx4 CL22 $88 <br />
+
 ### July 7, 2024
-✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $110 <br />
-✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $110 <br />
+✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 2Rx4 CL22 $110 <br />
+✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 2Rx4 CL22 $110 <br />
 
 ### June 12, 2024
 ✔ Ram: 1 x 32GB Micron 32GB DDR4-3200 ECC-RDIMM 1Rx4 CL22 $107 <br />
