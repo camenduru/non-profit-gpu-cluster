@@ -1,0 +1,39 @@
+FROM ubuntu:22.04
+
+USER root
+WORKDIR /content
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=True
+
+RUN apt update -y && apt install -y apt-transport-https ca-certificates software-properties-common build-essential uidmap \
+    libgl1 libglib2.0-0 zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev podman util-linux && \
+    add-apt-repository -y ppa:git-core/ppa && apt update -y && \
+    apt install -y python-is-python3 python3-pip sudo nano aria2 gnupg curl wget git git-lfs unzip unrar ffmpeg openjdk-21-jdk tmux && \
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && \
+    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null && \
+    apt update -y && apt install -y docker-ce docker-ce-cli containerd.io && \
+    echo "/usr/local/cuda/lib64" >> /etc/ld.so.conf && ldconfig && \
+    git clone https://github.com/aristocratos/btop /content/btop && cd /content/btop && make && make install && \
+    curl -fsSL https://code-server.dev/install.sh | sh && \
+    curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor && \
+    echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list && \
+    apt update -y && apt install -y mongodb-org && \
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && \
+    export NVM_DIR="$HOME/.nvm" && \
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && \
+    nvm install 18.20.3 && \
+    npm install -g generator-jhipster yo && \
+    mkdir -p /root/.config/code-server && \
+    echo "bind-addr: 0.0.0.0:7860" > /root/.config/code-server/config.yaml && \
+    echo "auth: none" >> /root/.config/code-server/config.yaml && \
+    echo "disable-telemetry: true" >> /root/.config/code-server/config.yaml && \
+    echo "cert: false" >> /root/.config/code-server/config.yaml && \
+    wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && \
+    dpkg -i cloudflared-linux-amd64.deb && \
+    apt-get install -f -y && \
+    rm -rf /content/btop
+
+RUN pip install pymongo
+
+CMD /usr/bin/code-server

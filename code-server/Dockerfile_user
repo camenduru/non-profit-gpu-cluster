@@ -1,0 +1,61 @@
+FROM ubuntu:22.04
+
+WORKDIR /content
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=True
+ENV TERM=xterm-256color
+ENV PATH="/home/camenduru/.local/bin:/usr/local/cuda/bin:${PATH}"
+
+RUN apt update -y && apt install -y apt-transport-https ca-certificates software-properties-common build-essential uidmap \
+    libgl1 libglib2.0-0 zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev podman util-linux && \
+    add-apt-repository -y ppa:git-core/ppa && apt update -y && \
+    apt install -y python-is-python3 python3-pip sudo nano aria2 gnupg curl wget git git-lfs unzip unrar ffmpeg openjdk-21-jdk tmux && \
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && \
+    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null && \
+    apt update -y && apt install -y docker-ce docker-ce-cli containerd.io && \
+    aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda_12.6.2_560.35.03_linux.run -d /content -o cuda_12.6.2_560.35.03_linux.run && sh cuda_12.6.2_560.35.03_linux.run --silent --toolkit && \
+    echo "/usr/local/cuda/lib64" >> /etc/ld.so.conf && ldconfig && \
+    git clone https://github.com/aristocratos/btop /content/btop && cd /content/btop && make && make install && \
+    adduser --disabled-password --gecos '' camenduru && \
+    adduser camenduru sudo && \
+    usermod -aG docker camenduru && \
+    echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers && \
+    chown -R camenduru:camenduru /content && \
+    chmod -R 777 /content && \
+    chown -R camenduru:camenduru /home && \
+    chmod -R 777 /home && \
+    curl -fsSL https://code-server.dev/install.sh | sh && \
+    curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor && \
+    echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list && \
+    apt update -y && apt install -y mongodb-org && \
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && \
+    export NVM_DIR="$HOME/.nvm" && \
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && \
+    nvm install 18.20.3 && \
+    npm install -g generator-jhipster yo && \
+    mkdir -p /home/camenduru/.config/code-server && \
+    chown -R camenduru:camenduru /home/camenduru/.config/code-server && \
+    echo "bind-addr: 0.0.0.0:7860" > /home/camenduru/.config/code-server/config.yaml && \
+    echo "auth: none" >> /home/camenduru/.config/code-server/config.yaml && \
+    echo "disable-telemetry: true" >> /home/camenduru/.config/code-server/config.yaml && \
+    echo "cert: false" >> /home/camenduru/.config/code-server/config.yaml && \
+    wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && \
+    dpkg -i cloudflared-linux-amd64.deb && \
+    apt-get install -f -y && \
+    mkdir -p /home/camenduru/data/db && \
+    chown -R camenduru:camenduru /home/camenduru/data/db && \
+    mkdir -p /home/camenduru/.config/systemd/user && \
+    chown -R camenduru:camenduru /home/camenduru/.config/systemd/user && \
+    rm -rf /content/btop /content/cuda_12.6.2_560.35.03_linux.run
+    
+USER camenduru
+
+RUN pip install torch==2.5.0+cu124 torchvision==0.20.0+cu124 torchaudio==2.5.0+cu124 torchtext==0.18.0 torchdata==0.8.0 --extra-index-url https://download.pytorch.org/whl/cu124 && \
+    pip install xformers==0.0.28.post2 pymongo
+
+CMD sh -c " \
+    mkdir -p /home/camenduru/.cloudflared && \
+    echo '{\"AccountTag\":\"${CLOUDFLARED_TAG}\",\"TunnelSecret\":\"${CLOUDFLARED_SECRET}\",\"TunnelID\":\"${CLOUDFLARED_ID}\"}' > /home/camenduru/.cloudflared/${CLOUDFLARED_ID}.json && \
+    echo 'tunnel: ${CLOUDFLARED_ID}\ncredentials-file: /home/camenduru/.cloudflared/${CLOUDFLARED_ID}.json\ningress:\n  - hostname: ${CLOUDFLARED_HOSTNAME}\n    service: http://localhost:3000\n  - service: http_status:404' > /home/camenduru/.cloudflared/config.yml && \
+    mongod --dbpath /home/camenduru/data/db --bind_ip 0.0.0.0 & cloudflared tunnel run & /usr/bin/code-server"
