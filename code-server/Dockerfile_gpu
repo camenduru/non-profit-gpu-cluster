@@ -1,0 +1,41 @@
+FROM ubuntu:22.04
+
+USER root
+WORKDIR /content
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=True
+
+RUN apt update -y && apt install -y apt-transport-https ca-certificates software-properties-common build-essential uidmap \
+    libgl1 libglib2.0-0 zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev podman util-linux && \
+    add-apt-repository -y ppa:git-core/ppa && apt update -y && \
+    apt install -y python-is-python3 python3-pip sudo nano aria2 gnupg curl wget git git-lfs unzip unrar ffmpeg openjdk-21-jdk tmux && \
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && \
+    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null && \
+    apt update -y && apt install -y docker-ce docker-ce-cli containerd.io && \
+    aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda_12.6.2_560.35.03_linux.run -d /content -o cuda_12.6.2_560.35.03_linux.run && sh cuda_12.6.2_560.35.03_linux.run --silent --toolkit && \
+    echo "/usr/local/cuda/lib64" >> /etc/ld.so.conf && ldconfig && \
+    git clone https://github.com/aristocratos/btop /content/btop && cd /content/btop && make && make install && \
+    curl -fsSL https://code-server.dev/install.sh | sh && \
+    curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor && \
+    echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list && \
+    apt update -y && apt install -y mongodb-org && \
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && \
+    export NVM_DIR="$HOME/.nvm" && \
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && \
+    nvm install 18.20.3 && \
+    npm install -g generator-jhipster yo && \
+    mkdir -p /root/.config/code-server && \
+    echo "bind-addr: 0.0.0.0:7860" > /root/.config/code-server/config.yaml && \
+    echo "auth: none" >> /root/.config/code-server/config.yaml && \
+    echo "disable-telemetry: true" >> /root/.config/code-server/config.yaml && \
+    echo "cert: false" >> /root/.config/code-server/config.yaml && \
+    wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && \
+    dpkg -i cloudflared-linux-amd64.deb && \
+    apt-get install -f -y && \
+    rm -rf /content/btop
+
+RUN pip install torch==2.5.0+cu124 torchvision==0.20.0+cu124 torchaudio==2.5.0+cu124 torchtext==0.18.0 torchdata==0.8.0 --extra-index-url https://download.pytorch.org/whl/cu124 && \
+    pip install xformers==0.0.28.post2 pymongo
+
+CMD /usr/bin/code-server
