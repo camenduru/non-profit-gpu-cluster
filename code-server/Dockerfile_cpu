@@ -26,7 +26,7 @@ RUN apt update -y && apt install -y apt-transport-https ca-certificates software
     npm install -g generator-jhipster yo && \
     mkdir -p /root/.config/code-server && \
     echo "bind-addr: 0.0.0.0:7860" > /root/.config/code-server/config.yaml && \
-    echo "auth: none" >> /root/.config/code-server/config.yaml && \
+    echo "auth: password" >> /root/.config/code-server/config.yaml && \
     echo "disable-telemetry: true" >> /root/.config/code-server/config.yaml && \
     echo "cert: false" >> /root/.config/code-server/config.yaml && \
     wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && \
