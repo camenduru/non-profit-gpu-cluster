@@ -36,5 +36,6 @@ RUN apt update -y && apt install -y apt-transport-https ca-certificates software
 
 RUN pip install pymongo
 
-CMD echo "password: ${CODE_SERVER_PASSWORD}" >> /root/.config/code-server/config.yaml && \
+CMD cloudflared service install ${CLOUDFLARED_TOKEN} && \
+    echo "password: ${CODE_SERVER_PASSWORD}" >> /root/.config/code-server/config.yaml && \
     /usr/bin/code-server

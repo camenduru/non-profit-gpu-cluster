@@ -38,5 +38,6 @@ RUN apt update -y && apt install -y apt-transport-https ca-certificates software
 RUN pip install torch==2.5.0+cu124 torchvision==0.20.0+cu124 torchaudio==2.5.0+cu124 torchtext==0.18.0 torchdata==0.8.0 --extra-index-url https://download.pytorch.org/whl/cu124 && \
     pip install xformers==0.0.28.post2 pymongo
 
-CMD echo "password: ${CODE_SERVER_PASSWORD}" >> /root/.config/code-server/config.yaml && \
+CMD cloudflared service install ${CLOUDFLARED_TOKEN} && \
+    echo "password: ${CODE_SERVER_PASSWORD}" >> /root/.config/code-server/config.yaml && \
     /usr/bin/code-server
