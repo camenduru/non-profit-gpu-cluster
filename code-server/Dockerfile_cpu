@@ -36,4 +36,5 @@ RUN apt update -y && apt install -y apt-transport-https ca-certificates software
 
 RUN pip install pymongo
 
-CMD /usr/bin/code-server
+CMD echo "password: ${CODE_SERVER_PASSWORD}" >> /root/.config/code-server/config.yaml && \
+    /usr/bin/code-server
