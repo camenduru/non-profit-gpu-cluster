@@ -257,6 +257,8 @@ make install PREFIX=/usr
 git clone https://github.com/aristocratos/btop && cd btop && make && make install
 
 https://github.com/raboof/nethogs
+
+git config pull.rebase false
 ```
 
 ### Jupyter
