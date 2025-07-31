@@ -332,7 +332,7 @@ export CUDA_HOME=/usr/local/cuda
 export PATH=$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 
-!apt install build-essential pkg-config yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev libfdk-aac-dev libmp3lame-dev libopus-dev libx264-dev libx265-dev libaom-dev libsvtav1-dev libdav1d-dev ninja-build libssl-dev -y
+!apt install build-essential pkg-config yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev libfdk-aac-dev libmp3lame-dev libopus-dev libx264-dev libx265-dev libaom-dev libsvtav1-dev libdav1d-dev ninja-build libssl-dev nasm -y
 
 !mkdir /content/ffmpeg
 %cd /content/ffmpeg
