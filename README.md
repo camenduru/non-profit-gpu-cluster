@@ -328,6 +328,12 @@ systemctl list-units --type=service --state=running
 ```shell
 https://docs.nvidia.com/video-technologies/index.html
 
+export CUDA_HOME=/usr/local/cuda
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+
+!apt install build-essential pkg-config yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev libfdk-aac-dev libmp3lame-dev libopus-dev libx264-dev libx265-dev libaom-dev libsvtav1-dev libdav1d-dev ninja-build libssl-dev -y
+
 !mkdir /content/ffmpeg
 %cd /content/ffmpeg
 !git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
@@ -335,9 +341,16 @@ https://docs.nvidia.com/video-technologies/index.html
 !sudo make install
 %cd /content/ffmpeg
 !git clone https://git.ffmpeg.org/ffmpeg.git /content/ffmpeg/ffmpeg
+%cd /content/ffmpeg
+!git clone https://gitlab.com/AOMediaCodec/SVT-AV1
+%cd /content/ffmpeg/SVT-AV1
+!mkdir /content/ffmpeg/SVT-AV1/build
+%cd /content/ffmpeg/SVT-AV1/build
+!cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+!ninja
+!ninja install
 %cd /content/ffmpeg/ffmpeg
-!apt install build-essential pkg-config yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev libfdk-aac-dev libmp3lame-dev libopus-dev libx264-dev libx265-dev -y
-!./configure --enable-nonfree --enable-cuda-nvcc --enable-nvenc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-shared --enable-libmp3lame --enable-gpl --enable-libfdk-aac --enable-libopus --enable-libx264 --enable-openssl
+!./configure --enable-nonfree --enable-cuda-nvcc --enable-cuda --enable-cuvid --enable-nvenc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-shared --enable-libmp3lame --enable-gpl --enable-libfdk-aac --enable-libopus --enable-libx264 --enable-openssl --enable-libaom --enable-libsvtav1 --enable-libdav1d
 !make -j 24
 !make install
 !ldconfig
