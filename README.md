@@ -332,7 +332,7 @@ export CUDA_HOME=/usr/local/cuda
 export PATH=$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 
-!apt install build-essential pkg-config yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev libfdk-aac-dev libmp3lame-dev libopus-dev libx264-dev libx265-dev libaom-dev libsvtav1-dev libdav1d-dev ninja-build libssl-dev nasm -y
+!apt install build-essential pkg-config yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev libfdk-aac-dev libmp3lame-dev libopus-dev libx264-dev libx265-dev libaom-dev libsvtav1-dev libdav1d-dev ninja-build libssl-dev nasm libfreetype6-dev libfontconfig1-dev -y
 
 !mkdir /content/ffmpeg
 %cd /content/ffmpeg
@@ -350,7 +350,7 @@ export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 !ninja
 !ninja install
 %cd /content/ffmpeg/ffmpeg
-!./configure --enable-nonfree --enable-cuda-nvcc --enable-cuda --enable-cuvid --enable-nvenc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-shared --enable-libmp3lame --enable-gpl --enable-libfdk-aac --enable-libopus --enable-libx264 --enable-openssl --enable-libaom --enable-libsvtav1 --enable-libdav1d
+!./configure --enable-nonfree --enable-cuda-nvcc --enable-cuda --enable-cuvid --enable-nvenc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-shared --enable-libmp3lame --enable-gpl --enable-libfdk-aac --enable-libopus --enable-libx264 --enable-openssl --enable-libaom --enable-libsvtav1 --enable-libdav1d --enable-libfreetype --enable-libfontconfig
 !make -j 24
 !make install
 !ldconfig
